@@ -1,0 +1,94 @@
+2025-06-30 21:28:18 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project1.departmnets' doesn't exist in C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\project1\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project1.departmnets' doesn't exist in C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\project1\bin\cake.php:10
+- [main]:
+
+2025-06-30 21:28:36 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project1.departmnets' doesn't exist in C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\project1\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project1.departmnets' doesn't exist in C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\project1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\project1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\project1\bin\cake.php:10
+- [main]:
+
+2025-07-19 17:15:27 warning: Association property name `department` clashes with field of same name of table `supervisors`. You should explicitly specify the `propertyName` option.
+Trace:
+C:\laragon\www\internhub\vendor\cakephp\cakephp\src\ORM\Association.php C:\laragon\www\internhub\vendor\cakephp\cakephp\src\ORM\Association.php, line 579
+Cake\ORM\Association->getProperty() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\ModelCommand.php, line 721
+Bake\Command\ModelCommand->getEntityPropertySchema() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\ModelCommand.php, line 170
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 192
+Cake\Console\BaseCommand->run() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 327
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\internhub\bin\cake.php, line 10
+[main]
+
+2025-07-19 17:15:38 warning: Association property name `department` clashes with field of same name of table `supervisors`. You should explicitly specify the `propertyName` option.
+Trace:
+C:\laragon\www\internhub\vendor\cakephp\cakephp\src\ORM\Association.php C:\laragon\www\internhub\vendor\cakephp\cakephp\src\ORM\Association.php, line 579
+Cake\ORM\Association->getProperty() C:\laragon\www\internhub\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php, line 97
+Bake\Utility\Model\AssociationFilter->filterAssociations() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 455
+Bake\Command\TemplateCommand->_filteredAssociations() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 308
+Bake\Command\TemplateCommand->_loadController() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 146
+Bake\Command\TemplateCommand->execute() C:\laragon\www\internhub\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 192
+Cake\Console\BaseCommand->run() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 327
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\internhub\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\internhub\bin\cake.php, line 10
+[main]
+
